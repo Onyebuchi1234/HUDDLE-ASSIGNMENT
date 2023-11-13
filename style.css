@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(106, 201, 233);
+    background-color: hsl(177, 100%, 96%);
+    padding: 40px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 35px;
+}
+.btn{
+    cursor: pointer;
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 12);
+}
+.btn2{
+    border: none;
+}
+.build-sec{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 60px 0px 20px;
+}
+.build{
+    width: 45%;
+}
+.build h1{
+    font-size: 41px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.illustration{
+    width: 55%;
+}
+.build p{
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.build button{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 70px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 80px 40px;  
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 12);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.service img{
+    max-width: 100%;
+    width: 520px;
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+#content{
+    padding-left: 70px;
+}
+#content h3{
+    margin: 10px 0px;
+}
+#content span{
+    width: 93%;
+}
+.left{
+margin-right: 0px;
+}
+.left p{
+    width: 100%;
+}
+.promo{
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 12);
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: -100px;
+}
+.promo h1{
+    margin-bottom: 20px;
+}
+.btn2{
+    margin-top: 15px;
+    padding: 24px 110px;
+    border-radius: 40px;
+    background-color:hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 200px 100px 30px;
+}
+.footer-sec{
+  display: flex;
+  margin: 40px 0px;
+}
+.sec-1{
+ min-width: 40%;
+ width: 40%;
+}
+.add{
+    position: relative;
+    left: 20px;
+}
+.add{
+display: flex;
+ align-items: flex-start;
+}
+.add img{
+    margin-top: 4px;
+    margin-right: 20px;u
+}
+li{
+    margin-bottom: 20px;
+    padding-right: 60px;
+    opacity: 10;
+}
+.sec-2{
+position: relative;
+left: 45%;
+bottom: 170px;
+}
+.sec-3{
+position: relative;
+left:68%;
+bottom: 300px;
+}
+.copy{
+position: relative;
+left: 70%;
+bottom: 150px;
+}
+.ion img{
+width: 30px;
+border-radius: 70px;
+background-color: #fff;
+justify-content: space-between;
+position: relative;
+left: 940px;
+bottom: 440px;
+margin-left: 5px;
+}
+li img{
+width: 20px;
+position: relative;
+top: 20px;
+right: 30px;
+}
+#add li{
+position: relative;
+top: 40px;
+left: 2px;
+margin-bottom:50px;
+}
+li img{
+position: relative;
+top: 83px;
+background-color: #fff;
+border: none;
+border-radius: 60px;
+}
+.add-2 span{
+  position:relative;
+  left: 5px;
+  bottom: 8px;
+}
+.add-2 img{
+position: relative;
+bottom: 5px;
+}
+#add-3 p{
+position: relative;
+left: 28px;
+bottom:20px;
+}
+#add-3 img{
+    position: relative;
+    top: 4px;
+}
+img{
+position: relative;
+bottom: 40px;
+}
+/*Media Query*/
+@media only screen and(max-width:555px){
+nav img{
+    width:150px;
+    height: 25px;
+}
+nav button{
+    padding: 8px 10px !important;
+}
+h1{
+    font-size: 20px !important;
+}
+h2{
+    font-size: 20px !important;
+}
+btn2{
+    padding: 15px  30px!important;
+    font-size: 14px !important;
+}
+
+}
